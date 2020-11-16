@@ -1,0 +1,107 @@
+{
+  "directives": [
+    {
+      "method": "copyRecordsByCriteria",
+      "arguments": [
+        "source1:users",
+        {
+          "userid": {
+            "value": "685",
+            "operator": "="
+          }
+        }
+      ]
+    },
+    {
+      "method": "copyRecordsByCriteria",
+      "arguments": [
+        "source1:users",
+        {
+          "userid": {
+            "value": "918",
+            "operator": "="
+          }
+        }
+      ]
+    },
+    {
+      "method": "copyRecordsByCriteria",
+      "arguments": [
+        "source1:users",
+        {
+          "userid": {
+            "value": "915",
+            "operator": "="
+          }
+        }
+      ]
+    },
+    {
+      "method": "copyRecordsByCriteria",
+      "arguments": [
+        "source1:users",
+        {
+          "userid": {
+            "value": "1457",
+            "operator": "="
+          }
+        }
+      ]
+    }
+  ],
+  "limits": {
+    "source1:users": 20,
+    "source1:client": 20,
+    "source1:job": 20,
+    "source1:roles": 20
+  },
+  "filters": {
+    "source1:users": {
+      "access": [
+        "admin",
+        "invite-only",
+        "local admin",
+        "localsuperuser",
+        "superuser",
+        "designer"
+      ]
+    },
+    "source1:account_user": {
+      "access": [
+        "admin",
+        "invite-only",
+        "local admin",
+        "localsuperuser",
+        "superuser",
+        "designer"
+      ]
+    },
+    "source1:job": {
+      "status": [
+        "active",
+        "complete"
+      ],
+      "clientid": [
+        1
+      ]
+    },
+    "source1:ticket": {
+      "startdate": {
+        "value": "2019-06-01 00:00:00",
+        "operator": ">"
+      }
+    },
+    "source1:ticketuser": {
+      "assigntime": {
+        "value": "2019-06-01 00:00:00",
+        "operator": ">"
+      }
+    },
+    "source1:customfieldsdata": {
+      "time": {
+        "value": "2019-06-01 00:00:00",
+        "operator": ">"
+      }
+    }
+  }
+}

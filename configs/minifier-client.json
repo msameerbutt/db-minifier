@@ -1,0 +1,68 @@
+{
+  "directives": [
+    {
+      "method": "copyRecordsByCriteria",
+      "arguments": [
+        "source1:client",
+        {
+          "clientid": {
+            "value": "1",
+            "operator": "="
+          }
+        }
+      ]
+    }
+  ],
+  "limits": {
+    "source1:users": 20,
+    "source1:client": 20,
+    "source1:job": 20,
+    "source1:roles": 20
+  },
+  "filters": {
+    "source1:users": {
+      "access": [
+        "admin",
+        "invite-only",
+        "local admin",
+        "localsuperuser",
+        "superuser",
+        "designer"
+      ]
+    },
+    "source1:account_user": {
+      "access": [
+        "admin",
+        "invite-only",
+        "local admin",
+        "localsuperuser",
+        "superuser",
+        "designer"
+      ]
+    },
+    "source1:job": {
+      "status": [
+        "active",
+        "complete"
+      ]
+    },
+    "source1:ticket": {
+      "startdate": {
+        "value": "2019-06-01 00:00:00",
+        "operator": ">"
+      }
+    },
+    "source1:ticketuser": {
+      "assigntime": {
+        "value": "2019-06-01 00:00:00",
+        "operator": ">"
+      }
+    },
+    "source1:customfieldsdata": {
+      "time": {
+        "value": "2019-06-01 00:00:00",
+        "operator": ">"
+      }
+    }
+  }
+}

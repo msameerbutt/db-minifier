@@ -1,0 +1,92 @@
+{
+  "source1:client": {
+    "source1:accounts": [
+      {
+        "accountid": "accountid"
+      }
+    ]
+  },
+  "source1:account_user": {
+    "source1:accounts": [
+      {
+        "accountid": "accountid"
+      }
+    ],
+    "source1:client": [
+      {
+        "clientid": "clientid"
+      }
+    ],
+    "source1:users": [
+      {
+        "userid": "userid"
+      }
+    ]
+  },
+  "source1:agresso_users": {
+    "source1:account_user": [
+      {
+        "pulse_userid": "userid"
+      }
+    ]
+  },
+  "source1:client_agresso_branches": {
+    "source1:client": [
+      {
+        "clientid": "clientid"
+      }
+    ]
+  },
+  "source1:client_config_values": {
+    "source1:client": [
+      {
+        "client_id": "clientid"
+      }
+    ]
+  },
+  "source1:job_attribute_group_members": {
+    "source1:client": [
+      {
+        "client_id": "clientid"
+      }
+    ]
+  },
+  "source1:job": {
+    "source1:client": [
+      {
+        "clientid": "clientid"
+      }
+    ]
+  },
+  "source1:usercategorypermissions_client_overrides": {
+    "source1:client": [
+      {
+        "clientid": "clientid"
+      }
+    ]
+  },
+  "source1:holidays": {
+    "source1:client": [
+      {
+        "client_id": "clientid"
+      }
+    ],
+    "source1:job": [
+      {
+        "job_id": "jobid"
+      }
+    ]
+  },
+  "source1:agresso_clients": {
+    "source1:client": [
+      {
+        "clientid": "clientid"
+      }
+    ],
+    "source1:agresso_project_relations_values": [
+      {
+        "identifier": "identifier"
+      }
+    ]
+  }
+}

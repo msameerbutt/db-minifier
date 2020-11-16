@@ -1,0 +1,599 @@
+{
+  "source1:account_user": {
+    "source1:users": [
+      {
+        "userid": "userid"
+      }
+    ],
+    "source1:accounts": [
+      {
+        "accountid": "accountid"
+      }
+    ],
+    "source1:client": [
+      {
+        "clientid": "clientid"
+      }
+    ]
+  },
+  "source1:client": {
+    "source1:clienttype": [
+      {
+        "nclienttypeid": "clienttypeid"
+      }
+    ],
+    "source1:accounts": [
+      {
+        "accountid": "accountid"
+      }
+    ]
+  },
+  "source1:job": {
+    "source1:client": [
+      {
+        "clientid": "clientid"
+      }
+    ],
+    "source1:projecttype": [
+      {
+        "projecttypeid": "typeid"
+      }
+    ],
+    "source1:portfolio": [
+      {
+        "portfolioid": "portfolioid"
+      }
+    ],
+    "source1:jobfinancetype": [
+      {
+        "jobfinancetypeid": "id"
+      }
+    ]
+  },
+  "source1:jobusers": {
+    "source1:job": [
+      {
+        "jobid": "jobid"
+      }
+    ],
+    "source1:users": [
+      {
+        "userid": "userid"
+      }
+    ],
+    "source1:agresso_roles": [
+      {
+        "alien_user_role": "inccat"
+      }
+    ]
+  },
+  "source1:jobgroups": {
+    "source1:job": [
+      {
+        "jobid": "jobid"
+      }
+    ],
+    "source1:groups": [
+      {
+        "groupid": "id"
+      }
+    ]
+  },
+  "source1:usergroup": {
+    "source1:users": [
+      {
+        "userid": "userid"
+      }
+    ],
+    "source1:groups": [
+      {
+        "groupid": "id"
+      }
+    ]
+  },
+  "source1:job_brand": {
+    "source1:job": [
+      {
+        "jobid": "jobid"
+      }
+    ],
+    "source1:brands": [
+      {
+        "brandid": "brandid"
+      }
+    ]
+  },
+  "source1:job_client": {
+    "source1:job": [
+      {
+        "jobid": "jobid"
+      }
+    ],
+    "source1:client": [
+      {
+        "clientid": "clientid"
+      }
+    ]
+  },
+  "source1:job_social": {
+    "source1:job": [
+      {
+        "jobid": "jobid"
+      }
+    ],
+    "source1:users": [
+      {
+        "userid": "userid"
+      }
+    ]
+  },
+  "source1:brand_user": {
+    "source1:brands": [
+      {
+        "brandid": "brandid"
+      }
+    ],
+    "source1:users": [
+      {
+        "userid": "userid"
+      }
+    ]
+  },
+  "source1:portal_pages_user_category_access": {
+    "source1:portals": [
+      {
+        "portal_id": "id"
+      }
+    ],
+    "source1:portal_pages": [
+      {
+        "page_id": "id"
+      }
+    ]
+  },
+  "source1:brands": {
+    "source1:brandcategories": [
+      {
+        "catid": "categoryid"
+      }
+    ],
+    "source1:accounts": [
+      {
+        "accountid": "accountid"
+      }
+    ]
+  },
+  "source1:ticket": {
+    "source1:status1": [
+      {
+        "status": "statusid"
+      }
+    ]
+  },
+  "source1:customfieldsdata": {
+    "source1:users": [
+      {
+        "userid": "userid"
+      }
+    ],
+    "source1:customfields": [
+      {
+        "customfieldid": "customfieldid"
+      }
+    ]
+  },
+  "source1:projecttype": {
+    "source1:projectgrouptype": [
+      {
+        "projectgrouptypeid": "projectgrouptypeid"
+      }
+    ]
+  },
+  "source1:job_tags": {
+    "source1:tags": [
+      {
+        "tagid": "tagid"
+      }
+    ],
+    "source1:job": [
+      {
+        "jobid": "jobid"
+      }
+    ]
+  },
+  "source1:bookings": {
+    "source1:bookings": [
+      {
+        "bookingid": "bookingid"
+      }
+    ]
+  },
+  "source1:job_links": {
+    "source1:job": [
+      {
+        "source_jobid": "jobid"
+      }
+    ]
+  },
+  "source1:agresso_job_info": {
+    "source1:job": [
+      {
+        "jobid": "jobid"
+      }
+    ]
+  },
+  "source1:agresso_users": {
+    "source1:users": [
+      {
+        "pulse_userid": "userid"
+      }
+    ]
+  },
+  "source1:assets": {
+    "source1:requirements": [
+      {
+        "requirementid": "requirementid"
+      }
+    ]
+  },
+  "source1:asset_tags": {
+    "source1:assets": [
+      {
+        "assetid": "assetid"
+      }
+    ],
+    "source1:tags": [
+      {
+        "tagid": "tagid"
+      }
+    ]
+  },
+  "source1:hero_image_note": {
+    "source1:notes": [
+      {
+        "noteid": "noteid"
+      }
+    ]
+  },
+  "source1:notes": {
+    "source1:job": [
+      {
+        "jobid": "jobid"
+      }
+    ]
+  },
+  "source1:note_links": {
+    "source1:notes": [
+      {
+        "noteid": "noteid"
+      }
+    ]
+  },
+  "source1:agresso_project_queue": {
+    "source1:job": [
+      {
+        "pulse_jobid": "jobid"
+      }
+    ]
+  },
+  "source1:activity_history": {
+    "source1:accounts": [
+      {
+        "accountid": "accountid"
+      }
+    ],
+    "source1:job": [
+      {
+        "jobid": "jobid"
+      }
+    ],
+    "source1:client": [
+      {
+        "clientid": "clientid"
+      }
+    ],
+    "source1:users": [
+      {
+        "userid": "userid"
+      }
+    ],
+    "source1:assets": [
+      {
+        "assetid": "assetid"
+      }
+    ],
+    "source1:requirements": [
+      {
+        "requirementid": "requirementid"
+      }
+    ],
+    "source1:notes": [
+      {
+        "noteid": "noteid"
+      }
+    ],
+    "source1:ticket": [
+      {
+        "ticketid": "ticketid"
+      }
+    ]
+  },
+  "source1:directory": {
+    "source1:users": [
+      {
+        "ownerid": "userid"
+      }
+    ],
+    "source1:job": [
+      {
+        "jobid": "jobid"
+      }
+    ],
+    "source1:directory": [
+      {
+        "parentid": "dirid"
+      }
+    ]
+  },
+  "source1:ticketuser": {
+    "source1:ticket": [
+      {
+        "ticketid": "ticketid"
+      }
+    ],
+    "source1:users": [
+      {
+        "userid": "userid"
+      }
+    ]
+  },
+  "source1:invoice_items": {
+    "source1:invoices": [
+      {
+        "invoiceid": "invoiceid"
+      }
+    ],
+    "source1:invoice_itemcodes": [
+      {
+        "itemcode": "invoiceitemcode"
+      }
+    ],
+    "source1:order_items": [
+      {
+        "orderitemid": "orderitemid"
+      }
+    ],
+    "source1:invoice_items": [
+      {
+        "TaxRate": "id"
+      }
+    ]
+  },
+  "source1:invoices": {
+    "source1:job": [
+      {
+        "jobid": "jobid"
+      }
+    ],
+    "source1:client": [
+      {
+        "clientid": "clientid"
+      }
+    ]
+  },
+  "source1:agresso_gl_transactions_data": {
+    "source1:job": [
+      {
+        "project": "AgressoJobId"
+      }
+    ]
+  },
+  "source1:tickethistory": {
+    "source1:ticket": [
+      {
+        "ticketid": "ticketid"
+      }
+    ],
+    "source1:users": [
+      {
+        "userid": "userid"
+      }
+    ],
+    "source1:status1": [
+      {
+        "status": "statusid"
+      }
+    ]
+  },
+  "source1:job_attribute_group_members": {
+    "source1:client": [
+      {
+        "client_id": "clientid"
+      }
+    ],
+    "source1:accounts": [
+      {
+        "account_id": "accountid"
+      }
+    ],
+    "source1:job_attribute_groups": [
+      {
+        "job_attribute_group_id": "id"
+      }
+    ],
+    "source1:brandcategories": [
+      {
+        "brand_category_id": "categoryid"
+      }
+    ]
+  },
+  "source1:asset_category": {
+    "source1:users": [
+      {
+        "userid": "userid"
+      }
+    ]
+  },
+  "source1:user_favourites": {
+    "source1:users": [
+      {
+        "userid": "userid"
+      }
+    ]
+  },
+  "source1:user_timesheet_options": {
+    "source1:users": [
+      {
+        "userid": "userid"
+      },
+      {
+        "supervisor": "userid"
+      }
+    ]
+  },
+  "source1:agresso_project_relations_mandatory": {
+    "source1:agresso_project_relations_mandatory": [
+      {
+        "parent_id": "rel_attr_id",
+        "identifier": "identifier"
+      }
+    ],
+    "source1:financeprofile": [
+      {
+        "identifier": "financeprofilename"
+      }
+    ]
+  },
+  "source1:financeprofile": {
+    "source1:groups": [
+      {
+        "finance_manager_group": "id"
+      },
+      {
+        "requester_group": "id"
+      },
+      {
+        "blocker_group": "id"
+      },
+      {
+        "fpm_groupid": "id"
+      }
+    ],
+    "source1:agresso_ledgers": [
+      {
+        "agresso_ledger": "name"
+      }
+    ],
+    "source1:client": [
+      {
+        "legacy_project_clientid": "clientid"
+      }
+    ],
+    "source1:users": [
+      {
+        "created_by": "userid"
+      },
+      {
+        "updated_by": "userid"
+      },
+      {
+        "deleted_by": "userid"
+      }
+    ]
+  },
+  "source1:agresso_project_relations_values": {
+    "source1:agresso_project_relations_values": [
+      {
+        "identifier": "identifier",
+        "parent_id": "rel_attr_id",
+        "parent_value": "dim_value"
+      }
+    ],
+    "source1:financeprofile": [
+      {
+        "identifier": "financeprofilename"
+      }
+    ],
+    "source1:agresso_project_relations_mandatory": [
+      {
+        "rel_attr_id": "rel_attr_id",
+        "identifier": "identifier"
+      }
+    ]
+  },
+  "source1:agresso_estimates": {
+    "source1:job": [
+      {
+        "project": "AgressoJobId"
+      }
+    ]
+  },
+  "source1:portal_page_widgets": {
+    "source1:portal_widgets": [
+      {
+        "portal_widget_id": "id"
+      }
+    ],
+    "source1:job": [
+      {
+        "jobid": "jobid"
+      }
+    ]
+  },
+  "source1:portal_page_widget_structures": {
+    "source1:portal_pages": [
+      {
+        "portal_page_id": "id"
+      }
+    ],
+    "source1:users": [
+      {
+        "userid": "userid"
+      }
+    ],
+    "source1:groups": [
+      {
+        "groupid": "id"
+      }
+    ],
+    "source1:client": [
+      {
+        "clientid": "clientid"
+      }
+    ],
+    "source1:accounts": [
+      {
+        "accountid": "accountid"
+      }
+    ]
+  },
+  "source1:job_attribute_group_type_options": {
+    "source1:job_attribute_types": [
+      {
+        "job_attribute_type_id": "id"
+      }
+    ],
+    "source1:job_attribute_groups": [
+      {
+        "job_attribute_group_id": "id"
+      }
+    ],
+    "source1:job_attribute_group_type_options": [
+      {
+        "parent_id": "id"
+      }
+    ],
+    "source1:job_attribute_type_options": [
+      {
+        "job_attribute_option_id": "id"
+      }
+    ]
+  },
+  "source1:mine_brand_meta": {
+    "source1:brands": [
+      {
+        "brand_id": "brandid"
+      }
+    ]
+  }
+}

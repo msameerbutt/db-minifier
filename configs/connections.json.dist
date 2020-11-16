@@ -1,0 +1,17 @@
+{
+  "source1": {
+    "dbname": "havas_health",
+    "username": "root",
+    "password": "secret",
+    "host": "database.pulse-dev.local",
+    "driver": "mysql",
+    "out_file": "./../logs/dump.sql"
+  },
+  "source2": {
+    "dbname": "minifier",
+    "username": "root",
+    "password": "secret",
+    "host": "database.pulse-dev.local",
+    "driver": "mysql"
+  }
+}
